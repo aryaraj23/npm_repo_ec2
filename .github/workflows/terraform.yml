@@ -26,3 +26,6 @@ jobs:
 
       - name: Set up Terrafom
         run: terraform init
+
+      - name: Preview the changes
+        run: terraform plan
