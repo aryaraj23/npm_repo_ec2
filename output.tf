@@ -5,5 +5,5 @@ output "instance_id" {
 
 output "public_ip" {
   description = "EC2 instance public ID"
-  value = aws_instance.npm_web.public_id
+  value = aws_instance.npm_web.public_ip
 }
