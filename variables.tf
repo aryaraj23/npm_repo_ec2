@@ -17,3 +17,8 @@ variable "instance_name" {
   type = string
   description = "Name of the EC2 Instance"
 }
+
+variable "key_name" {
+  description = "AWS Key pair"
+  type = string
+}
