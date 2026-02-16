@@ -1,1 +1,8 @@
+name: An NPM Project
+
+on: 
+  push:
+    branches:
+      - main
+
 
