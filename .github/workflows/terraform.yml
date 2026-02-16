@@ -29,3 +29,6 @@ jobs:
 
       - name: Preview the changes
         run: terraform plan
+
+      - name: Apply the changes
+        run: terraform apply -auto-approve
