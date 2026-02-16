@@ -3,7 +3,7 @@ variable "aws_region" {
   description = "AWS region"
 }
 
-varable "ami_id" {
+variable "ami_id" {
   type = string
   description = "EC2 AMI ID"
 }
