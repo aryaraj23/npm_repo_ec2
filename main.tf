@@ -45,7 +45,7 @@ resource "aws_instance" "npm_web" {
    vpc_security_group_ids = [aws_security_group.ssh_sg.id]
 
    tags = {
-     Name = "var.instance_name"
+     Name = var.instance_name
      Environment = "Dev"
    }
 }
